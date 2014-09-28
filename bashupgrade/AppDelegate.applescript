@@ -33,8 +33,6 @@ script AppDelegate
 	
     on updatetbrbtnClicked_(sender)
         # Run check script
-        set workingstg to current application's NSAttributedString's alloc()'s initWithString_("Working... Please wait...")
-        consoletext's textStorage()'s setAttributedString_(workingstg)
         set command to POSIX path of (path to resource "installscript.sh")
         set resulttxt to (do shell script command with administrator privileges)
         set attributedString to current application's NSAttributedString's alloc()'s initWithString_(resulttxt)
@@ -45,8 +43,6 @@ script AppDelegate
     
     on restoretbrbtnClicked_(sender)
         # Run check script
-        set workingstg to current application's NSAttributedString's alloc()'s initWithString_("Working... Please wait...")
-        consoletext's textStorage()'s setAttributedString_(workingstg)
         set command to POSIX path of (path to resource "restore.sh")
         set resulttxt to (do shell script command with administrator privileges)
         set attributedString to current application's NSAttributedString's alloc()'s initWithString_(resulttxt)

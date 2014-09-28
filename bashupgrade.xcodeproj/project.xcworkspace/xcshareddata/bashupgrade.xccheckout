@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DA8C763-1CDE-4C29-87AE-146EC43AC573</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bashupgrade</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B84843EE-3651-4256-8F32-CE119B8A0477</key>
+		<string>https://github.com/chikorita157/bashupgrade.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bashupgrade.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B84843EE-3651-4256-8F32-CE119B8A0477</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chikorita157/bashupgrade.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B84843EE-3651-4256-8F32-CE119B8A0477</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B84843EE-3651-4256-8F32-CE119B8A0477</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bashupgrade</string>
+		</dict>
+	</array>
+</dict>
+</plist>
