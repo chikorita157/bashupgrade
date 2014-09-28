@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD8008C19D86B8A0019A782 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8008B19D86B8A0019A782 /* Cocoa.framework */; };
+		5CD8008E19D86B8A0019A782 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8008D19D86B8A0019A782 /* AppleScriptObjC.framework */; };
+		5CD8009819D86B8A0019A782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8009619D86B8A0019A782 /* InfoPlist.strings */; };
+		5CD8009A19D86B8A0019A782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8009919D86B8A0019A782 /* main.m */; };
+		5CD8009E19D86B8A0019A782 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8009C19D86B8A0019A782 /* Credits.rtf */; };
+		5CD800A019D86B8A0019A782 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */; };
+		5CD800A319D86B8A0019A782 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800A119D86B8A0019A782 /* MainMenu.xib */; };
+		5CD800A519D86B8A0019A782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800A419D86B8A0019A782 /* Images.xcassets */; };
+		5CD800B019D86C0A0019A782 /* installscript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800AF19D86C0A0019A782 /* installscript.sh */; };
+		5CD800B219D86FDC0019A782 /* check.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800B119D86FDC0019A782 /* check.sh */; };
+		5CD800B419D8787B0019A782 /* restore.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800B319D8787B0019A782 /* restore.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD8008819D86B8A0019A782 /* bashupgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bashupgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD8008B19D86B8A0019A782 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5CD8008D19D86B8A0019A782 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		5CD8009019D86B8A0019A782 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5CD8009119D86B8A0019A782 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CD8009219D86B8A0019A782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CD8009519D86B8A0019A782 /* bashupgrade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bashupgrade-Info.plist"; sourceTree = "<group>"; };
+		5CD8009719D86B8A0019A782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CD8009919D86B8A0019A782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD8009B19D86B8A0019A782 /* bashupgrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bashupgrade-Prefix.pch"; sourceTree = "<group>"; };
+		5CD8009D19D86B8A0019A782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		5CD800A219D86B8A0019A782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CD800A419D86B8A0019A782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CD800AF19D86C0A0019A782 /* installscript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = installscript.sh; path = ../installscript.sh; sourceTree = "<group>"; };
+		5CD800B119D86FDC0019A782 /* check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = check.sh; path = ../check.sh; sourceTree = "<group>"; };
+		5CD800B319D8787B0019A782 /* restore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = restore.sh; path = ../restore.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD8008519D86B8A0019A782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD8008E19D86B8A0019A782 /* AppleScriptObjC.framework in Frameworks */,
+				5CD8008C19D86B8A0019A782 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD8007F19D86B8A0019A782 = {
+			isa = PBXGroup;
+			children = (
+				5CD8009319D86B8A0019A782 /* bashupgrade */,
+				5CD8008A19D86B8A0019A782 /* Frameworks */,
+				5CD8008919D86B8A0019A782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD8008919D86B8A0019A782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8008819D86B8A0019A782 /* bashupgrade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD8008A19D86B8A0019A782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8008B19D86B8A0019A782 /* Cocoa.framework */,
+				5CD8008D19D86B8A0019A782 /* AppleScriptObjC.framework */,
+				5CD8008F19D86B8A0019A782 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD8008F19D86B8A0019A782 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8009019D86B8A0019A782 /* AppKit.framework */,
+				5CD8009119D86B8A0019A782 /* CoreData.framework */,
+				5CD8009219D86B8A0019A782 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5CD8009319D86B8A0019A782 /* bashupgrade */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */,
+				5CD800A119D86B8A0019A782 /* MainMenu.xib */,
+				5CD800A419D86B8A0019A782 /* Images.xcassets */,
+				5CD8009419D86B8A0019A782 /* Supporting Files */,
+			);
+			path = bashupgrade;
+			sourceTree = "<group>";
+		};
+		5CD8009419D86B8A0019A782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD800AF19D86C0A0019A782 /* installscript.sh */,
+				5CD800B319D8787B0019A782 /* restore.sh */,
+				5CD800B119D86FDC0019A782 /* check.sh */,
+				5CD8009519D86B8A0019A782 /* bashupgrade-Info.plist */,
+				5CD8009619D86B8A0019A782 /* InfoPlist.strings */,
+				5CD8009919D86B8A0019A782 /* main.m */,
+				5CD8009B19D86B8A0019A782 /* bashupgrade-Prefix.pch */,
+				5CD8009C19D86B8A0019A782 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD8008719D86B8A0019A782 /* bashupgrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD800A819D86B8A0019A782 /* Build configuration list for PBXNativeTarget "bashupgrade" */;
+			buildPhases = (
+				5CD8008419D86B8A0019A782 /* Sources */,
+				5CD8008519D86B8A0019A782 /* Frameworks */,
+				5CD8008619D86B8A0019A782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bashupgrade;
+			productName = bashupgrade;
+			productReference = 5CD8008819D86B8A0019A782 /* bashupgrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD8008019D86B8A0019A782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = chikorita157;
+			};
+			buildConfigurationList = 5CD8008319D86B8A0019A782 /* Build configuration list for PBXProject "bashupgrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD8007F19D86B8A0019A782;
+			productRefGroup = 5CD8008919D86B8A0019A782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD8008719D86B8A0019A782 /* bashupgrade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD8008619D86B8A0019A782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD800B419D8787B0019A782 /* restore.sh in Resources */,
+				5CD800B219D86FDC0019A782 /* check.sh in Resources */,
+				5CD800B019D86C0A0019A782 /* installscript.sh in Resources */,
+				5CD8009819D86B8A0019A782 /* InfoPlist.strings in Resources */,
+				5CD800A519D86B8A0019A782 /* Images.xcassets in Resources */,
+				5CD8009E19D86B8A0019A782 /* Credits.rtf in Resources */,
+				5CD800A319D86B8A0019A782 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD8008419D86B8A0019A782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD800A019D86B8A0019A782 /* AppDelegate.applescript in Sources */,
+				5CD8009A19D86B8A0019A782 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CD8009619D86B8A0019A782 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD8009719D86B8A0019A782 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CD8009C19D86B8A0019A782 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD8009D19D86B8A0019A782 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5CD800A119D86B8A0019A782 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD800A219D86B8A0019A782 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD800A619D86B8A0019A782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CD800A719D86B8A0019A782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CD800A919D86B8A0019A782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bashupgrade/bashupgrade-Prefix.pch";
+				INFOPLIST_FILE = "bashupgrade/bashupgrade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CD800AA19D86B8A0019A782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bashupgrade/bashupgrade-Prefix.pch";
+				INFOPLIST_FILE = "bashupgrade/bashupgrade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD8008319D86B8A0019A782 /* Build configuration list for PBXProject "bashupgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD800A619D86B8A0019A782 /* Debug */,
+				5CD800A719D86B8A0019A782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD800A819D86B8A0019A782 /* Build configuration list for PBXNativeTarget "bashupgrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD800A919D86B8A0019A782 /* Debug */,
+				5CD800AA19D86B8A0019A782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD8008019D86B8A0019A782 /* Project object */;
+}
