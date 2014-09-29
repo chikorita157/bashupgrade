@@ -7,9 +7,9 @@ You can
 * Compile and install an updated version of Bash
 * Restore backup versions (Useful when installing the offical patch)
 
-This program requires XCode and Command Line code since the script downloads the source, applies the patches and compiles it. To get XCode:
+This program requires XCode and Command Line Tools since the script downloads the source (from Apple), applies the patches and compiles it. To get XCode:
 * 10.9 or later: App Store
-* 10.8 or earlier: Check the [Apple Developer Downloads]: https://developer.apple.com/downloads/.
+* 10.8 or earlier: Check the [Apple Developer Downloads].
 
 Sparkle updater is included if any additional patches comes out.
 
@@ -18,7 +18,8 @@ Program is localized in English and 日本語.
 What is shellshock?
 ===
 From Wikipedia:
-Shellshock, also known as Bashdoor,[1] is a security bug in the widely used Unix Bash shell which was disclosed on 24 September 2014. Many Internet daemons, such as web servers, use Bash to process certain commands, allowing an attacker to cause vulnerable versions of Bash to execute arbitrary commands. This can allow an attacker to gain unauthorized access to a computer system.
+
+Shellshock, also known as Bashdoor, is a security bug in the widely used Unix Bash shell which was disclosed on 24 September 2014. Many Internet daemons, such as web servers, use Bash to process certain commands, allowing an attacker to cause vulnerable versions of Bash to execute arbitrary commands. This can allow an attacker to gain unauthorized access to a computer system.
 
 When Apple will provide an official update?
 ===
@@ -27,3 +28,5 @@ They say it won't affect normal users, but they will most likely release a patch
 How to build?
 ===
 Just clone and compile in XCode. While it compiles to 10.8 by default, it's possible to compile for Snow Leopard and Lion.
+
+[Apple Developer Downloads]: https://developer.apple.com/downloads/
