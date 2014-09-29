@@ -4,3 +4,7 @@ bashupgrade_priv.pem
 *.pbxuser
 
 *.perspectivev3
+
+bashupgrade.xml
+
+build
