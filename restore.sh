@@ -7,5 +7,7 @@ cp /bin/bash.old /bin/bash
 cp /bin/sh.old /bin/sh
 chmod 555 /bin/bash /bin/sh
 echo “Old versions restored!”
+rm /bin/bash.old
+rm /bin/sh.old
 exit 0
 fi

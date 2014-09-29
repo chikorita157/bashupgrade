@@ -23,7 +23,9 @@ Shellshock, also known as Bashdoor, is a security bug in the widely used Unix Ba
 
 When Apple will provide an official update?
 ===
-They say it won't affect normal users, but they will most likely release a patch in the near future.
+Apple released an update for Lion, Montian Lion and Mavericks users. Apple's supplied version updates bash to 3.2.53 and may not protect you from futher shellshock vulnerabilities of the latest patch from upstream (3.2.54). If you choose to install it, update Bashupgrade to 1.0.3 and restore the backup before continuing. 
+
+Snow Leopard users can continue to use this program to update bash as Apple will not supply an update for that OS X version.
 
 How to build?
 ===
@@ -32,9 +34,9 @@ Just clone and compile in XCode and will compile to 10.6 by default. If you have
 OR
 
 In the terminal type:
-`git clone https://github.com/chikorita157/bashupgrade.git
-cd bashupgrade
-xcodebuild`
+`git clone https://github.com/chikorita157/bashupgrade.git`
+`cd bashupgrade`
+`xcodebuild`
 
 The built application will be in bin/release
 

@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ "$(id -u)" != "0" ]; then
 echo "Please run the script as root."
-exit 1
+exit 0
 else
         cd /tmp
 		mkdir bash-fix
@@ -22,7 +22,7 @@ else
 			echo "Build Failed (Build error or XCode not installed), aborting..."
 			echo "Removing temp files..."
 			rm -rf /tmp/bash-fix
-			exit 1
+			exit 0
 		fi
 		if [ -f "/bin/bash.old" ] && [ -f "/bin/bash.old" ]; then
 			echo "Backup exists, skipping..."
