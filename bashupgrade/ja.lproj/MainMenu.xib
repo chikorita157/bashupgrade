@@ -70,7 +70,7 @@
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="26941880">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">About bashupgrade</string>
+									<string key="NSTitle">bashupgradeについて</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="105714880"/>
@@ -78,7 +78,7 @@
 								</object>
 								<object class="NSMenuItem" id="364079079">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">Check for Updates...</string>
+									<string key="NSTitle">アップデートを確認...</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="105714880"/>
@@ -96,7 +96,7 @@
 								</object>
 								<object class="NSMenuItem" id="504161962">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">Services</string>
+									<string key="NSTitle">サービス</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="105714880"/>
@@ -104,7 +104,7 @@
 									<string key="NSAction">submenuAction:</string>
 									<reference key="NSTarget" ref="543001773"/>
 									<object class="NSMenu" key="NSSubmenu" id="543001773">
-										<string key="NSTitle">Services</string>
+										<string key="NSTitle">サービス</string>
 										<array class="NSMutableArray" key="NSMenuItems"/>
 										<string key="NSName">_NSServicesMenu</string>
 									</object>
@@ -121,7 +121,7 @@
 								</object>
 								<object class="NSMenuItem" id="556753693">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">Hide bashupgrade</string>
+									<string key="NSTitle">bashupgradeを隠す</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -130,7 +130,7 @@
 								</object>
 								<object class="NSMenuItem" id="738723421">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">Hide Others</string>
+									<string key="NSTitle">ほかを隠す</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -139,7 +139,7 @@
 								</object>
 								<object class="NSMenuItem" id="573136835">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">Show All</string>
+									<string key="NSTitle">すべてを表示</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="105714880"/>
@@ -157,7 +157,7 @@
 								</object>
 								<object class="NSMenuItem" id="960925469">
 									<reference key="NSMenu" ref="55086066"/>
-									<string key="NSTitle">Quit bashupgrade</string>
+									<string key="NSTitle">bashupgradeを終了</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -170,7 +170,7 @@
 					</object>
 					<object class="NSMenuItem" id="927242097">
 						<reference key="NSMenu" ref="404172776"/>
-						<string key="NSTitle">Edit</string>
+						<string key="NSTitle">編集</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="105714880"/>
@@ -178,7 +178,7 @@
 						<string key="NSAction">submenuAction:</string>
 						<reference key="NSTarget" ref="814234442"/>
 						<object class="NSMenu" key="NSSubmenu" id="814234442">
-							<string key="NSTitle">Edit</string>
+							<string key="NSTitle">編集</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="793806490">
 									<reference key="NSMenu" ref="814234442"/>
@@ -210,7 +210,7 @@
 								</object>
 								<object class="NSMenuItem" id="104245176">
 									<reference key="NSMenu" ref="814234442"/>
-									<string key="NSTitle">Cut</string>
+									<string key="NSTitle">カッド</string>
 									<string key="NSKeyEquiv">x</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -219,7 +219,7 @@
 								</object>
 								<object class="NSMenuItem" id="263064440">
 									<reference key="NSMenu" ref="814234442"/>
-									<string key="NSTitle">Copy</string>
+									<string key="NSTitle">コピー</string>
 									<string key="NSKeyEquiv">c</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -228,7 +228,7 @@
 								</object>
 								<object class="NSMenuItem" id="419341335">
 									<reference key="NSMenu" ref="814234442"/>
-									<string key="NSTitle">Paste</string>
+									<string key="NSTitle">ペースト</string>
 									<string key="NSKeyEquiv">v</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -237,7 +237,7 @@
 								</object>
 								<object class="NSMenuItem" id="365398092">
 									<reference key="NSMenu" ref="814234442"/>
-									<string key="NSTitle">Paste and Match Style</string>
+									<string key="NSTitle">ペーストしてスタイルを合わせる</string>
 									<string key="NSKeyEquiv">V</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -246,7 +246,7 @@
 								</object>
 								<object class="NSMenuItem" id="409604268">
 									<reference key="NSMenu" ref="814234442"/>
-									<string key="NSTitle">Delete</string>
+									<string key="NSTitle">削除</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="105714880"/>
@@ -254,7 +254,7 @@
 								</object>
 								<object class="NSMenuItem" id="247712029">
 									<reference key="NSMenu" ref="814234442"/>
-									<string key="NSTitle">Select All</string>
+									<string key="NSTitle">すべて選択</string>
 									<string key="NSKeyEquiv">a</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -266,7 +266,7 @@
 					</object>
 					<object class="NSMenuItem" id="390395820">
 						<reference key="NSMenu" ref="404172776"/>
-						<string key="NSTitle">Window</string>
+						<string key="NSTitle">ウィンドウ</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="105714880"/>
@@ -274,11 +274,11 @@
 						<string key="NSAction">submenuAction:</string>
 						<reference key="NSTarget" ref="261153916"/>
 						<object class="NSMenu" key="NSSubmenu" id="261153916">
-							<string key="NSTitle">Window</string>
+							<string key="NSTitle">ウィンドウ</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="285685465">
 									<reference key="NSMenu" ref="261153916"/>
-									<string key="NSTitle">Minimize</string>
+									<string key="NSTitle">しまう</string>
 									<string key="NSKeyEquiv">m</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -309,7 +309,7 @@
 					</object>
 					<object class="NSMenuItem" id="94141259">
 						<reference key="NSMenu" ref="404172776"/>
-						<string key="NSTitle">Help</string>
+						<string key="NSTitle">ヘルプ</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="105714880"/>
@@ -317,11 +317,11 @@
 						<string key="NSAction">submenuAction:</string>
 						<reference key="NSTarget" ref="146540828"/>
 						<object class="NSMenu" key="NSSubmenu" id="146540828">
-							<string key="NSTitle">Help</string>
+							<string key="NSTitle">ヘルプ</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="385929897">
 									<reference key="NSMenu" ref="146540828"/>
-									<string key="NSTitle">bashupgrade Help</string>
+									<string key="NSTitle">bashupgrade ヘルプ</string>
 									<string key="NSKeyEquiv">?</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -340,7 +340,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{131, 159}, {480, 272}}</string>
 				<int key="NSWTFlags">1618478080</int>
-				<string key="NSWindowTitle">Console</string>
+				<string key="NSWindowTitle">コンソール</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<object class="NSToolbar" key="NSViewClass" id="511822229">
 					<string key="NSToolbarIdentifier">2710F9FD-15C0-46CC-8A46-BC226792E2A4</string>
@@ -354,8 +354,8 @@
 					<dictionary class="NSMutableDictionary" key="NSToolbarIBIdentifiedItems">
 						<object class="NSToolbarItem" key="69361195-4ECE-45F2-9C6A-EB143B1659CB" id="306486429">
 							<string key="NSToolbarItemIdentifier">69361195-4ECE-45F2-9C6A-EB143B1659CB</string>
-							<string key="NSToolbarItemLabel">Restore Backup</string>
-							<string key="NSToolbarItemPaletteLabel">Restore Backup</string>
+							<string key="NSToolbarItemLabel">バックアップを戻す</string>
+							<string key="NSToolbarItemPaletteLabel">バックアップを戻す</string>
 							<string key="NSToolbarItemToolTip"/>
 							<nil key="NSToolbarItemView"/>
 							<object class="NSCustomResource" key="NSToolbarItemImage">
@@ -374,8 +374,8 @@
 						</object>
 						<object class="NSToolbarItem" key="9065BDA3-D226-4ACB-93B6-29BA18516419" id="138218868">
 							<string key="NSToolbarItemIdentifier">9065BDA3-D226-4ACB-93B6-29BA18516419</string>
-							<string key="NSToolbarItemLabel">Update</string>
-							<string key="NSToolbarItemPaletteLabel">Update</string>
+							<string key="NSToolbarItemLabel">アップデートする</string>
+							<string key="NSToolbarItemPaletteLabel">アップデートする</string>
 							<string key="NSToolbarItemToolTip"/>
 							<nil key="NSToolbarItemView"/>
 							<object class="NSCustomResource" key="NSToolbarItemImage">
@@ -394,8 +394,8 @@
 						</object>
 						<object class="NSToolbarItem" key="F89C5D38-5675-4FFE-9E14-5914BE89ED3B" id="462320255">
 							<string key="NSToolbarItemIdentifier">F89C5D38-5675-4FFE-9E14-5914BE89ED3B</string>
-							<string key="NSToolbarItemLabel">Check</string>
-							<string key="NSToolbarItemPaletteLabel">Check</string>
+							<string key="NSToolbarItemLabel">検査する</string>
+							<string key="NSToolbarItemPaletteLabel">検査する</string>
 							<string key="NSToolbarItemToolTip"/>
 							<nil key="NSToolbarItemView"/>
 							<object class="NSCustomResource" key="NSToolbarItemImage">
@@ -467,14 +467,14 @@
 							</object>
 						</object>
 					</dictionary>
-					<array class="NSMutableArray" key="NSToolbarIBAllowedItems">
+					<array key="NSToolbarIBAllowedItems">
 						<reference ref="902114517"/>
 						<reference ref="994031195"/>
 						<reference ref="462320255"/>
 						<reference ref="138218868"/>
 						<reference ref="306486429"/>
 					</array>
-					<array class="NSMutableArray" key="NSToolbarIBDefaultItems">
+					<array key="NSToolbarIBDefaultItems">
 						<reference ref="462320255"/>
 						<reference ref="138218868"/>
 						<reference ref="306486429"/>

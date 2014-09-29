@@ -10,9 +10,9 @@
 		5C4CCEC319D8CC4A003039E3 /* install.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCEC219D8CC4A003039E3 /* install.tiff */; };
 		5C4CCEC519D8CC57003039E3 /* search.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCEC419D8CC57003039E3 /* search.tiff */; };
 		5C4CCEC719D8CC74003039E3 /* remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCEC619D8CC74003039E3 /* remove.tiff */; };
-		5C4CCEC919D8CE28003039E3 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4CCEC819D8CE28003039E3 /* Sparkle.framework */; };
-		5C4CCED019D8D025003039E3 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C4CCECC19D8CF17003039E3 /* Sparkle.framework */; };
 		5C4CCED319D8D1C4003039E3 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCED219D8D1C4003039E3 /* dsa_pub.pem */; };
+		5CB2AA7919D9AD8300A86541 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */; };
+		5CB2AA7A19D9AD9200A86541 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */; };
 		5CD8008C19D86B8A0019A782 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8008B19D86B8A0019A782 /* Cocoa.framework */; };
 		5CD8008E19D86B8A0019A782 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8008D19D86B8A0019A782 /* AppleScriptObjC.framework */; };
 		5CD8009819D86B8A0019A782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8009619D86B8A0019A782 /* InfoPlist.strings */; };
@@ -33,22 +33,21 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5C4CCED019D8D025003039E3 /* Sparkle.framework in CopyFiles */,
+				5CB2AA7A19D9AD9200A86541 /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5C4CCEBF19D8C5E1003039E3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		5C4CCEC019D8C5E1003039E3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C4CCEC119D8C5E1003039E3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5C4CCEC219D8CC4A003039E3 /* install.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = install.tiff; sourceTree = "<group>"; };
 		5C4CCEC419D8CC57003039E3 /* search.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = search.tiff; sourceTree = "<group>"; };
 		5C4CCEC619D8CC74003039E3 /* remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = remove.tiff; sourceTree = "<group>"; };
-		5C4CCEC819D8CE28003039E3 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../../Downloads/Sparkle-1.8.0/Sparkle.framework"; sourceTree = "<group>"; };
-		5C4CCECC19D8CF17003039E3 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		5C4CCED219D8D1C4003039E3 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		5C6D22AD19D9B04F00D382DA /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		5CD8008819D86B8A0019A782 /* bashupgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bashupgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD8008B19D86B8A0019A782 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5CD8008D19D86B8A0019A782 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -62,7 +61,7 @@
 		5CD8009D19D86B8A0019A782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		5CD800A219D86B8A0019A782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5CD800A419D86B8A0019A782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CD800A419D86B8A0019A782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		5CD800AF19D86C0A0019A782 /* installscript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = installscript.sh; path = ../installscript.sh; sourceTree = "<group>"; };
 		5CD800B119D86FDC0019A782 /* check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = check.sh; path = ../check.sh; sourceTree = "<group>"; };
 		5CD800B319D8787B0019A782 /* restore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = restore.sh; path = ../restore.sh; sourceTree = "<group>"; };
@@ -73,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4CCEC919D8CE28003039E3 /* Sparkle.framework in Frameworks */,
+				5CB2AA7919D9AD8300A86541 /* Sparkle.framework in Frameworks */,
 				5CD8008E19D86B8A0019A782 /* AppleScriptObjC.framework in Frameworks */,
 				5CD8008C19D86B8A0019A782 /* Cocoa.framework in Frameworks */,
 			);
@@ -85,7 +84,6 @@
 		5CD8007F19D86B8A0019A782 = {
 			isa = PBXGroup;
 			children = (
-				5C4CCECC19D8CF17003039E3 /* Sparkle.framework */,
 				5CD8009319D86B8A0019A782 /* bashupgrade */,
 				5CD8008A19D86B8A0019A782 /* Frameworks */,
 				5CD8008919D86B8A0019A782 /* Products */,
@@ -103,7 +101,7 @@
 		5CD8008A19D86B8A0019A782 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C4CCEC819D8CE28003039E3 /* Sparkle.framework */,
+				5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */,
 				5CD8008B19D86B8A0019A782 /* Cocoa.framework */,
 				5CD8008D19D86B8A0019A782 /* AppleScriptObjC.framework */,
 				5CD8008F19D86B8A0019A782 /* Other Frameworks */,
@@ -256,7 +254,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5CD800A219D86B8A0019A782 /* Base */,
-				5C4CCEBF19D8C5E1003039E3 /* ja */,
+				5C6D22AD19D9B04F00D382DA /* ja */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -268,10 +266,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -279,6 +279,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -296,9 +297,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -306,10 +307,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -317,6 +320,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -329,26 +333,31 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
 		5CD800A919D86B8A0019A782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/ashe/Downloads/Sparkle-1.8.0",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bashupgrade/bashupgrade-Prefix.pch";
 				INFOPLIST_FILE = "bashupgrade/bashupgrade-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -356,18 +365,23 @@
 		5CD800AA19D86B8A0019A782 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/ashe/Downloads/Sparkle-1.8.0",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bashupgrade/bashupgrade-Prefix.pch";
 				INFOPLIST_FILE = "bashupgrade/bashupgrade-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

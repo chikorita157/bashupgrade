@@ -27,6 +27,16 @@ They say it won't affect normal users, but they will most likely release a patch
 
 How to build?
 ===
-Just clone and compile in XCode. While it compiles to 10.8 by default, it's possible to compile for Snow Leopard and Lion.
+Just clone and compile in XCode and will compile to 10.6 by default. If you have problems building, change the SDK version to the latest. 
+
+OR
+
+In the terminal type:
+`git clone https://github.com/chikorita157/bashupgrade.git
+cd bashupgrade
+xcodebuild`
+
+The built application will be in bin/release
+
 
 [Apple Developer Downloads]: https://developer.apple.com/downloads/

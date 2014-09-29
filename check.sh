@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/
 	env x='() { :;}; echo You are vulnerable! Please install the patch by running this script as root with the argument -i' bash -c 'echo '
 	env X='() { (a)=>\' sh -c "echo date"; cat echo
 	if [ -f "echo" ]; then
