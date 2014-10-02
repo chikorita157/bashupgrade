@@ -11,6 +11,7 @@
 		5C4CCEC519D8CC57003039E3 /* search.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCEC419D8CC57003039E3 /* search.tiff */; };
 		5C4CCEC719D8CC74003039E3 /* remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCEC619D8CC74003039E3 /* remove.tiff */; };
 		5C4CCED319D8D1C4003039E3 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CCED219D8D1C4003039E3 /* dsa_pub.pem */; };
+		5C6B2E8719DDA27E0009F968 /* bashupgrade.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5C6B2E8619DDA27E0009F968 /* bashupgrade.icns */; };
 		5CB2AA7919D9AD8300A86541 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */; };
 		5CB2AA7A19D9AD9200A86541 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */; };
 		5CD8008C19D86B8A0019A782 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8008B19D86B8A0019A782 /* Cocoa.framework */; };
@@ -20,7 +21,6 @@
 		5CD8009E19D86B8A0019A782 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8009C19D86B8A0019A782 /* Credits.rtf */; };
 		5CD800A019D86B8A0019A782 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */; };
 		5CD800A319D86B8A0019A782 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800A119D86B8A0019A782 /* MainMenu.xib */; };
-		5CD800A519D86B8A0019A782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800A419D86B8A0019A782 /* Images.xcassets */; };
 		5CD800B019D86C0A0019A782 /* installscript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800AF19D86C0A0019A782 /* installscript.sh */; };
 		5CD800B219D86FDC0019A782 /* check.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800B119D86FDC0019A782 /* check.sh */; };
 		5CD800B419D8787B0019A782 /* restore.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5CD800B319D8787B0019A782 /* restore.sh */; };
@@ -46,6 +46,7 @@
 		5C4CCEC419D8CC57003039E3 /* search.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = search.tiff; sourceTree = "<group>"; };
 		5C4CCEC619D8CC74003039E3 /* remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = remove.tiff; sourceTree = "<group>"; };
 		5C4CCED219D8D1C4003039E3 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		5C6B2E8619DDA27E0009F968 /* bashupgrade.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bashupgrade.icns; sourceTree = "<group>"; };
 		5C6D22AD19D9B04F00D382DA /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5CB2AA7619D9ACCD00A86541 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		5CD8008819D86B8A0019A782 /* bashupgrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bashupgrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +62,6 @@
 		5CD8009D19D86B8A0019A782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		5CD800A219D86B8A0019A782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5CD800A419D86B8A0019A782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
 		5CD800AF19D86C0A0019A782 /* installscript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = installscript.sh; path = ../installscript.sh; sourceTree = "<group>"; };
 		5CD800B119D86FDC0019A782 /* check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = check.sh; path = ../check.sh; sourceTree = "<group>"; };
 		5CD800B319D8787B0019A782 /* restore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = restore.sh; path = ../restore.sh; sourceTree = "<group>"; };
@@ -125,7 +125,6 @@
 				5C4CCED219D8D1C4003039E3 /* dsa_pub.pem */,
 				5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */,
 				5CD800A119D86B8A0019A782 /* MainMenu.xib */,
-				5CD800A419D86B8A0019A782 /* Images.xcassets */,
 				5CD8009419D86B8A0019A782 /* Supporting Files */,
 			);
 			path = bashupgrade;
@@ -134,6 +133,7 @@
 		5CD8009419D86B8A0019A782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C6B2E8619DDA27E0009F968 /* bashupgrade.icns */,
 				5C4CCEC219D8CC4A003039E3 /* install.tiff */,
 				5C4CCEC419D8CC57003039E3 /* search.tiff */,
 				5C4CCEC619D8CC74003039E3 /* remove.tiff */,
@@ -204,11 +204,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CD800B419D8787B0019A782 /* restore.sh in Resources */,
+				5C6B2E8719DDA27E0009F968 /* bashupgrade.icns in Resources */,
 				5CD800B219D86FDC0019A782 /* check.sh in Resources */,
 				5C4CCEC319D8CC4A003039E3 /* install.tiff in Resources */,
 				5CD800B019D86C0A0019A782 /* installscript.sh in Resources */,
 				5CD8009819D86B8A0019A782 /* InfoPlist.strings in Resources */,
-				5CD800A519D86B8A0019A782 /* Images.xcassets in Resources */,
 				5C4CCEC519D8CC57003039E3 /* search.tiff in Resources */,
 				5CD8009E19D86B8A0019A782 /* Credits.rtf in Resources */,
 				5C4CCED319D8D1C4003039E3 /* dsa_pub.pem in Resources */,
