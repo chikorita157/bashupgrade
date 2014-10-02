@@ -1,13 +1,68 @@
-#!/bin/sh
-cd ~/
-	env x='() { :;}; echo You are vulnerable! Please install the patch by running this script as root with the argument -i' bash -c 'echo '
-	env X='() { (a)=>\' sh -c "echo date"; cat echo
-	if [ -f "echo" ]; then
-		echo "You are still vulnerable! Please install the patch by running this script as root with the argument -i"
-		rm echo
-	fi
-	bash -c 'true <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF' ||
-echo "You are still vulnerable! Please install the patch by running this script as root with the argument -i, redir_stack"
-(for x in {1..200} ; do echo "for x$x in ; do :"; done; for x in {1..200} ; do echo done ; done) | bash ||
-echo "You are still vulnerable! Please install the patch by running this script as root with the argument -i, word_lineno"
-	exit 0
+#!/bin/bash
+
+#From https://github.com/hannob/bashcheck/blob/master/bashcheck
+#License https://github.com/hannob/bashcheck/blob/master/LICENSE
+
+[ -n "$1" ] && bash=$(which $1) || bash=$(which bash)
+
+echo -e "\033[95mTesting $bash ..."
+echo $($bash --version | head -n 1)
+echo -e "\033[39m"
+
+
+r=`env x="() { :; }; echo x" $bash -c "" 2>/dev/null`
+if [ -n "$r" ]; then
+	echo -e '\033[91mVulnerable to CVE-2014-6271 (original shellshock)\033[39m'
+else
+	echo -e '\033[92mNot vulnerable to CVE-2014-6271 (original shellshock)\033[39m'
+fi
+
+cd /tmp;rm echo 2>/dev/null
+env x='() { function a a>\' $bash -c echo 2>/dev/null > /dev/null
+if [ -e echo ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-7169 (taviso bug)\033[39m"
+else
+	echo -e "\033[92mNot vulnerable to CVE-2014-7169 (taviso bug)\033[39m"
+fi
+
+$($bash -c "true $(printf '<<EOF %.0s' {1..80})" 2>/tmp/bashcheck.tmp)
+ret=$?
+grep -q AddressSanitizer /tmp/bashcheck.tmp
+if [ $? == 0 ] || [ $ret == 139 ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-7186 (redir_stack bug)\033[39m"
+else
+	echo -e "\033[92mNot vulnerable to CVE-2014-7186 (redir_stack bug)\033[39m"
+fi
+
+
+$bash -c "`for i in {1..200}; do echo -n "for x$i in; do :;"; done; for i in {1..200}; do echo -n "done;";done`" 2>/dev/null
+if [ $? != 0 ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-7187 (nested loops off by one)\033[39m"
+else
+	echo -e "\033[96mTest for CVE-2014-7187 not reliable without address sanitizer\033[39m"
+fi
+
+$($bash -c "f(){ x(){ _;};x(){ _;}<<a;}" 2>/dev/null)
+if [ $? != 0 ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-6277 (lcamtuf bug #1) [no patch]\033[39m"
+else
+	echo -e "\033[92mNot vulnerable to CVE-2014-6277 (lcamtuf bug #1)\033[39m"
+fi
+
+if [ -n "$(env x='() { _;}>_[$($())] { echo x;}' $bash -c : 2>/dev/null)" ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-6278 (lcamtuf bug #2) [no prefix/suffix]\033[39m"
+elif [ -n "$(env BASH_FUNC_x%%='() { _;}>_[$($())] { echo x;}' $bash -c : 2>/dev/null)" ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-6278 (lcamtuf bug #2) [prefix/%%-suffix]\033[39m"
+elif [ -n "$(env 'BASH_FUNC_x()'='() { _;}>_[$($())] { echo x;}' $bash -c : 2>/dev/null)" ]; then
+	echo -e "\033[91mVulnerable to CVE-2014-6278 (lcamtuf bug #2) [prefix/()-suffix]\033[39m"
+else
+	echo -e "\033[92mNot vulnerable to CVE-2014-6278 (lcamtuf bug #2)\033[39m"
+fi
+
+
+r=`a="() { echo x;}" $bash -c a 2>/dev/null`
+if [ -n "$r" ]; then
+	echo -e "\033[93mVariable function parser still active, maybe vulnerable to unknown parser bugs\033[39m"
+else
+	echo -e "\033[92mVariable function parser inactive, likely safe from unknown parser bugs\033[39m"
+fi
