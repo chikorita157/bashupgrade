@@ -40,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C1BB11A19DE0AFC0083BC6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5C4CCEC019D8C5E1003039E3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C4CCEC119D8C5E1003039E3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5C4CCEC219D8CC4A003039E3 /* install.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = install.tiff; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		5CD8009B19D86B8A0019A782 /* bashupgrade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bashupgrade-Prefix.pch"; sourceTree = "<group>"; };
 		5CD8009D19D86B8A0019A782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		5CD8009F19D86B8A0019A782 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
-		5CD800A219D86B8A0019A782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5CD800AF19D86C0A0019A782 /* installscript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = installscript.sh; path = ../installscript.sh; sourceTree = "<group>"; };
 		5CD800B119D86FDC0019A782 /* check.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = check.sh; path = ../check.sh; sourceTree = "<group>"; };
 		5CD800B319D8787B0019A782 /* restore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = restore.sh; path = ../restore.sh; sourceTree = "<group>"; };
@@ -253,8 +253,8 @@
 		5CD800A119D86B8A0019A782 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5CD800A219D86B8A0019A782 /* Base */,
 				5C6D22AD19D9B04F00D382DA /* ja */,
+				5C1BB11A19DE0AFC0083BC6E /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
