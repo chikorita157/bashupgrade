@@ -11,7 +11,7 @@ This program requires XCode and Command Line Tools since the script downloads th
 * 10.9 or later: App Store
 * 10.8 or earlier: Check the [Apple Developer Downloads].
 
-Sparkle updater is included if any additional patches comes out.
+Sparkle updater is included if any additional patches comes out. 1.0.6 will install Bash 3.2.56.
 
 Program is localized in English and 日本語.
 
@@ -34,9 +34,9 @@ Just clone and compile in XCode and will compile to 10.6 by default. If you have
 OR
 
 In the terminal type:
-`git clone https://github.com/chikorita157/bashupgrade.git`
-`cd bashupgrade`
-`xcodebuild`
+* `git clone https://github.com/chikorita157/bashupgrade.git`
+* `cd bashupgrade`
+* `xcodebuild`
 
 The built application will be in bin/release
 
