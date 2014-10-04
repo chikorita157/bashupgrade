@@ -8,3 +8,4 @@ bashupgrade_priv.pem
 bashupgrade.xml
 
 build
+.DS_Store

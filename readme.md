@@ -8,8 +8,11 @@ You can
 * Restore backup versions (Useful when installing the offical patch)
 
 This program requires XCode and Command Line Tools since the script downloads the source (from Apple), applies the patches and compiles it. To get XCode:
-* 10.9 or later: App Store
-* 10.8 or earlier: Check the [Apple Developer Downloads].
+* 10.9 Mavericks or later: App Store (Xcode 6)
+* 10.8 Mountain Lion - XCode 5.1.1 - [Apple Developer Downloads].
+* 10.7 Lion - XCode 4.6.3 - [Apple Developer Downloads].
+* 10.6 Snow Leopard - XCode 4.2 (for Snow Leopard, if aviliable) or XCode 3.2.6 [Apple Developer Downloads].
+
 
 Sparkle updater is included if any additional patches comes out. 1.0.6 will install Bash 3.2.56.
 
@@ -34,7 +37,7 @@ Just clone and compile in XCode and will compile to 10.6 by default. If you have
 OR
 
 In the terminal type:
-* `git clone https://github.com/chikorita157/bashupgrade.git`
+* `git clone https://bitbucket.org/chikorita157/bashupgrade.git`
 * `cd bashupgrade`
 * `xcodebuild`
 
