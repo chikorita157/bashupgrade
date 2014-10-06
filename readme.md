@@ -11,10 +11,10 @@ This program requires XCode and Command Line Tools since the script downloads th
 * 10.9 Mavericks or later: App Store (Xcode 6)
 * 10.8 Mountain Lion - XCode 5.1.1 - [Apple Developer Downloads].
 * 10.7 Lion - XCode 4.6.3 - [Apple Developer Downloads].
-* 10.6 Snow Leopard - XCode 4.2 (for Snow Leopard, if aviliable) or XCode 3.2.6 [Apple Developer Downloads].
+* 10.6 Snow Leopard - XCode 4.2 (for Snow Leopard, if available) or XCode 3.2.6 [Apple Developer Downloads].
 
 
-Sparkle updater is included if any additional patches comes out. 1.0.6 will install Bash 3.2.56.
+Sparkle updater is included if any additional patches comes out. 1.0.7 will install Bash 3.2.57.
 
 Program is localized in English and 日本語.
 
